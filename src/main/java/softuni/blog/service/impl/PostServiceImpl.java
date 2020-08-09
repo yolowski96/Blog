@@ -40,7 +40,7 @@ public class PostServiceImpl implements PostService {
     public ResponseEntity<List<PostResponseModel>> findAllPosts() {
 
         if(this.postRepository.count() == 0){
-            return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+            return ResponseEntity.status(HttpStatus.OK).build();
         }
 
         List<PostResponseModel> allPosts =  this.postRepository.findAll().stream().map(post -> {
