@@ -188,7 +188,7 @@ const PostForm = () => {
           touched,
         }) => (
           <Form className={classes.margin}>
-            <Field component={TextField} fullWidth name="title" label="Title" disabled/>
+            <Field component={TextField} fullWidth name="title" label="Title"/>
             <br />
             <Field
               component={TextField}
