@@ -1,0 +1,7 @@
+.app {
+  background-image: url("./images/travel-blog-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
