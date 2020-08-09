@@ -26,7 +26,7 @@ public class TravelTipController {
         this.modelMapper = modelMapper;
     }
 
-    @GetMapping("/tips")
+    @GetMapping("/travel-tips")
     public ResponseEntity<List<TravelTipResponseModel>> showTips(){
         return this.travelTipService.findAllTips();
     }
